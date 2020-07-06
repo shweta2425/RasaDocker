@@ -1,0 +1,8 @@
+---
+applications:
+- name: cbx_chatApp
+  memory: 2GB
+  disk_quota: 2GB
+  buildpack: python_buildpack
+  command: rasa run actions
+  
